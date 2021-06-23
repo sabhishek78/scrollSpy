@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.section-title{
+    height: 40px;
+    color: white;
+    width: 80px;
+    text-align: center;
+    background-color: cornflowerblue;
+    vertical-align: middle;
+}
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+}
+.hr{
+    border: none;
+    height: 3px;
+    background-color: cornflowerblue; /* Modern Browsers */
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 50px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 100px; /* Add a top margin to avoid content overlay */
+}
